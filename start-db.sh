@@ -7,12 +7,13 @@ ROOT_USER="root-user"
 ROOT_PASSWORD="root-password"
 
 #NETWORK
+source .env.network
 LOCALHOST_PORT="27017"
 CONTAINER_PORT="27017"
-NETWORK_NAME="key-value-net"
+
 
 #STORAGE
-VOLUME_NAME="key-value-data"
+source .env.volume
 VOLUME_CONTAINER_PATH="/data/bin"
 
 # Key-value credentials

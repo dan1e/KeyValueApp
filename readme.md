@@ -1,1 +1,1 @@
-#Projeto de configuração docker para container mongodb
+#Projeto de configuração docker para container mongodb, apenas para estudos
